@@ -69,27 +69,27 @@ export default function LandingPage() {
       ]}
       mediaItems={[
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/well-done-t-bone-steak-pineapple_140725-7536.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/well-done-t-bone-steak-pineapple_140725-7536.jpg?_wi=1",
           imageAlt: "Grilled Picanha",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/well-done-t-bone-steak-pineapple_140725-7536.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/well-done-t-bone-steak-pineapple_140725-7536.jpg?_wi=2",
           imageAlt: "Premium Steak",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/well-done-t-bone-steak-pineapple_140725-7536.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/well-done-t-bone-steak-pineapple_140725-7536.jpg?_wi=3",
           imageAlt: "Brazilian Grill",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/well-done-t-bone-steak-pineapple_140725-7536.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/well-done-t-bone-steak-pineapple_140725-7536.jpg?_wi=4",
           imageAlt: "Fire Grilled",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/well-done-t-bone-steak-pineapple_140725-7536.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/well-done-t-bone-steak-pineapple_140725-7536.jpg?_wi=5",
           imageAlt: "Fresh Buffet",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/well-done-t-bone-steak-pineapple_140725-7536.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/well-done-t-bone-steak-pineapple_140725-7536.jpg?_wi=6",
           imageAlt: "Dining Experience",
         },
       ]}
@@ -171,7 +171,7 @@ export default function LandingPage() {
           id: "p1",
           name: "Picanha",
           price: "Premium",
-          imageSrc: "http://img.b2bpic.net/free-photo/steamed-bao-bun-with-braised-pork-belly-fresh-asian-slaw_84443-85877.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/steamed-bao-bun-with-braised-pork-belly-fresh-asian-slaw_84443-85877.jpg?_wi=1",
         },
         {
           id: "p2",
@@ -183,7 +183,7 @@ export default function LandingPage() {
           id: "p3",
           name: "Churrasco",
           price: "Premium",
-          imageSrc: "http://img.b2bpic.net/free-photo/bottom-view-raw-chicken-skewers-natural-wood-board-other-stuffs-black-table_140725-148190.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/bottom-view-raw-chicken-skewers-natural-wood-board-other-stuffs-black-table_140725-148190.jpg?_wi=1",
         },
         {
           id: "p4",
@@ -195,13 +195,13 @@ export default function LandingPage() {
           id: "p5",
           name: "Bife de Chorizo",
           price: "Premium",
-          imageSrc: "http://img.b2bpic.net/free-photo/steamed-bao-bun-with-braised-pork-belly-fresh-asian-slaw_84443-85877.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/steamed-bao-bun-with-braised-pork-belly-fresh-asian-slaw_84443-85877.jpg?_wi=2",
         },
         {
           id: "p6",
           name: "Lomo de Cerdo",
           price: "Premium",
-          imageSrc: "http://img.b2bpic.net/free-photo/bottom-view-raw-chicken-skewers-natural-wood-board-other-stuffs-black-table_140725-148190.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/bottom-view-raw-chicken-skewers-natural-wood-board-other-stuffs-black-table_140725-148190.jpg?_wi=2",
         },
       ]}
       title="Nuestras Especialidades"
