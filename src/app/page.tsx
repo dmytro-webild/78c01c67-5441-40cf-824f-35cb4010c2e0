@@ -167,7 +167,7 @@ export default function LandingPage() {
         {
           text: "WhatsApp Reservas",          href: "https://wa.me/50555045249"},
         {
-          text: "Ver Instagram",          href: "https://instagram.com/picanha.managua"},
+          text: "Ver Instagram",          href: "https://instagram.com/picanhabt.ni"},
       ]}
     />
   </div>
@@ -188,7 +188,7 @@ export default function LandingPage() {
         {
           title: "Social",          items: [
             {
-              label: "Instagram",              href: "https://instagram.com/picanha.managua"},
+              label: "Instagram",              href: "https://instagram.com/picanhabt.ni"},
             {
               label: "Facebook",              href: "#"},
           ],
