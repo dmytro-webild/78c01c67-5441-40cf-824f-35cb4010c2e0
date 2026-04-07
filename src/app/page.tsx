@@ -65,9 +65,9 @@ export default function LandingPage() {
       description="Una experiencia gastronómica diseñada a tu gusto."
       useInvertedBackground={false}
       features={[
-        { id: "1", title: "Pagas por peso", description: ["Control total del precio. Tú eliges la porción."], imageSrc: "http://img.b2bpic.net/free-photo/assortment-frozen-food-table_23-2148969442.jpg" },
-        { id: "2", title: "Cortes premium", description: ["Disfruta de picanha y ribeye de calidad insuperable."], imageSrc: "http://img.b2bpic.net/free-photo/meat-prepared-cooking_23-2148599755.jpg" },
-        { id: "3", title: "Variedad fresca", description: ["Desde opciones keto a buffet saludable diario."], imageSrc: "http://img.b2bpic.net/free-photo/top-view-delicious-dinner-fried-chicken-dish-with-various-spices-foods-garlics-fallen-oil-bottle-lemon-onions-mushrooms-kumquats_140725-159368.jpg" },
+        { id: "1", title: "Pagas por peso", descriptions: ["Control total del precio. Tú eliges la porción."], imageSrc: "http://img.b2bpic.net/free-photo/assortment-frozen-food-table_23-2148969442.jpg" },
+        { id: "2", title: "Cortes premium", descriptions: ["Disfruta de picanha y ribeye de calidad insuperable."], imageSrc: "http://img.b2bpic.net/free-photo/meat-prepared-cooking_23-2148599755.jpg" },
+        { id: "3", title: "Variedad fresca", descriptions: ["Desde opciones keto a buffet saludable diario."], imageSrc: "http://img.b2bpic.net/free-photo/top-view-delicious-dinner-fried-chicken-dish-with-various-spices-foods-garlics-fallen-oil-bottle-lemon-onions-mushrooms-kumquats_140725-159368.jpg" },
       ]}
     />
   </div>
