@@ -204,8 +204,6 @@ export default function LandingPage() {
           ],
         },
       ]}
-      leftLink={{text: "Privacidad", href: "#"}}
-      rightLink={{text: "Términos", href: "#"}}
     />
   </div>
       </ReactLenis>
