@@ -52,7 +52,7 @@ export default function LandingPage() {
         {
           text: "Reservar por WhatsApp",          href: "https://wa.me/50555045249"},
         {
-          text: "Ver Menú",          href: "#menu"},
+          text: "Ver Menú",          href: "#menu", className: "bg-red-600 hover:bg-red-700 text-white"},
       ]}
       mediaItems={[
         {
