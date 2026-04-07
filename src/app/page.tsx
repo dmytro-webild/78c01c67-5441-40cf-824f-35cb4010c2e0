@@ -63,10 +63,11 @@ export default function LandingPage() {
       textboxLayout="default"
       title="La Excelencia en Cada Corte"
       description="Una experiencia gastronómica diseñada a tu gusto."
+      useInvertedBackground={false}
       features={[
-        { id: "1", title: "Pagas por peso", descriptions: ["Control total del precio. Tú eliges la porción."], imageSrc: "http://img.b2bpic.net/free-photo/assortment-frozen-food-table_23-2148969442.jpg" },
-        { id: "2", title: "Cortes premium", descriptions: ["Disfruta de picanha y ribeye de calidad insuperable."], imageSrc: "http://img.b2bpic.net/free-photo/meat-prepared-cooking_23-2148599755.jpg" },
-        { id: "3", title: "Variedad fresca", descriptions: ["Desde opciones keto a buffet saludable diario."], imageSrc: "http://img.b2bpic.net/free-photo/top-view-delicious-dinner-fried-chicken-dish-with-various-spices-foods-garlics-fallen-oil-bottle-lemon-onions-mushrooms-kumquats_140725-159368.jpg" },
+        { id: "1", title: "Pagas por peso", description: ["Control total del precio. Tú eliges la porción."], imageSrc: "http://img.b2bpic.net/free-photo/assortment-frozen-food-table_23-2148969442.jpg" },
+        { id: "2", title: "Cortes premium", description: ["Disfruta de picanha y ribeye de calidad insuperable."], imageSrc: "http://img.b2bpic.net/free-photo/meat-prepared-cooking_23-2148599755.jpg" },
+        { id: "3", title: "Variedad fresca", description: ["Desde opciones keto a buffet saludable diario."], imageSrc: "http://img.b2bpic.net/free-photo/top-view-delicious-dinner-fried-chicken-dish-with-various-spices-foods-garlics-fallen-oil-bottle-lemon-onions-mushrooms-kumquats_140725-159368.jpg" },
       ]}
     />
   </div>
@@ -110,6 +111,7 @@ export default function LandingPage() {
       textboxLayout="default"
       title="Google Reviews"
       description="Lo que dicen nuestros clientes en la red."
+      useInvertedBackground={false}
       testimonials={[
         { id: "1", name: "Carlos M.", handle: "@carlosm", testimonial: "La mejor carne brasileña de Managua, un servicio excelente y calidad constante.", rating: 5, icon: Star },
         { id: "2", name: "Ana R.", handle: "@anar", testimonial: "Me encanta el sistema por peso, ideal para probar un poco de todo sin desperdiciar.", rating: 5, icon: Star },
