@@ -76,14 +76,15 @@ export default function LandingPage() {
       <FeatureCardTwentySeven
       animationType="slide-up"
       textboxLayout="default"
+      gridVariant="three-columns-all-equal-width"
       useInvertedBackground={false}
       features={[
         {
-          id: "1",          title: "Pagas por peso",          descriptions: ["Control total del precio. Tú eliges la porción. Tú decides el precio."],          imageSrc: "http://img.b2bpic.net/free-photo/assortment-frozen-food-table_23-2148969442.jpg"},
+          id: "1",          title: "Pagas por peso",          description: "Control total del precio. Tú eliges la porción. Tú decides el precio.",          imageSrc: "http://img.b2bpic.net/free-photo/assortment-frozen-food-table_23-2148969442.jpg"},
         {
-          id: "2",          title: "Cortes premium",          descriptions: ["Disfruta de picanha, ribeye y churrasco con calidad insuperable."],          imageSrc: "http://img.b2bpic.net/free-photo/meat-prepared-cooking_23-2148599755.jpg"},
+          id: "2",          title: "Cortes premium",          description: "Disfruta de picanha, ribeye y churrasco con calidad insuperable.",          imageSrc: "http://img.b2bpic.net/free-photo/meat-prepared-cooking_23-2148599755.jpg"},
         {
-          id: "3",          title: "Opciones para todos",          descriptions: ["De platos keto a opciones veganas frescas, cuidamos cada gusto."],          imageSrc: "http://img.b2bpic.net/free-photo/top-view-delicious-dinner-fried-chicken-dish-with-various-spices-foods-garlics-fallen-oil-bottle-lemon-onions-mushrooms-kumquats_140725-159368.jpg"},
+          id: "3",          title: "Opciones para todos",          description: "De platos keto a opciones veganas frescas, cuidamos cada gusto.",          imageSrc: "http://img.b2bpic.net/free-photo/top-view-delicious-dinner-fried-chicken-dish-with-various-spices-foods-garlics-fallen-oil-bottle-lemon-onions-mushrooms-kumquats_140725-159368.jpg"},
       ]}
       title="La Excelencia en Cada Corte"
       description="Una experiencia gastronómica diseñada a tu gusto."
@@ -173,7 +174,6 @@ export default function LandingPage() {
 
   <div id="footer" data-section="footer">
       <FooterBaseReveal
-      logoText="Picanha"
       columns={[
         {
           title: "Contacto",          items: [
@@ -204,6 +204,7 @@ export default function LandingPage() {
           ],
         },
       ]}
+      copyrightText="© 2024 Picanha Brazilian Taste. Todos los derechos reservados."
     />
   </div>
       </ReactLenis>
