@@ -61,6 +61,7 @@ export default function LandingPage() {
       <FeatureCardTwentySeven
       animationType="slide-up"
       textboxLayout="default"
+      useInvertedBackground={false}
       features={[
         { id: "1", title: "Pagas por peso", descriptions: ["Control total del precio. Tú eliges la porción."], imageSrc: "http://img.b2bpic.net/free-photo/assortment-frozen-food-table_23-2148969442.jpg" },
         { id: "2", title: "Cortes premium", descriptions: ["Picanha, ribeye y churrasco con calidad insuperable."], imageSrc: "http://img.b2bpic.net/free-photo/meat-prepared-cooking_23-2148599755.jpg" },
@@ -74,6 +75,7 @@ export default function LandingPage() {
   <div id="experience" data-section="experience">
       <FaqBase
       textboxLayout="split"
+      useInvertedBackground={false}
       faqs={[
         { id: "1", title: "Elige tus carnes", content: "Selecciona cortes directamente de nuestra parrilla al carbón." },
         { id: "2", title: "Agrega acompañamientos", content: "Guarniciones frescas para complementar tu plato." },
@@ -89,6 +91,7 @@ export default function LandingPage() {
       <ProductCardThree
       animationType="slide-up"
       textboxLayout="default"
+      useInvertedBackground={false}
       gridVariant="three-columns-all-equal-width"
       products={[
         { id: "p1", name: "Picanha", price: "Premium", imageSrc: "http://img.b2bpic.net/free-photo/steamed-bao-bun-with-braised-pork-belly-fresh-asian-slaw_84443-85877.jpg?_wi=1" },
@@ -104,6 +107,7 @@ export default function LandingPage() {
       <TestimonialCardThirteen
       animationType="slide-up"
       showRating={true}
+      useInvertedBackground={false}
       title="Lo que dicen nuestros clientes"
       description="Opiniones reales de Google"
       testimonials={[
@@ -117,6 +121,7 @@ export default function LandingPage() {
 
   <div id="contact" data-section="contact">
       <ContactText
+      useInvertedBackground={false}
       background={{ variant: "gradient-bars" }}
       text="¿Listo para la mejor carne en Managua? Visítanos hoy o contáctanos por WhatsApp. Dirección: 1C, Club Terraza, Managua. Tel: 5504 5249."
       buttons={[
