@@ -165,8 +165,6 @@ export default function LandingPage() {
           ],
         },
       ]}
-      leftLink={{ text: "Privacidad", href: "#" }}
-      rightLink={{ text: "Términos", href: "#" }}
       copyrightText="© 2024 Picanha Brazilian Taste. Todos los derechos reservados."
     />
   </div>
