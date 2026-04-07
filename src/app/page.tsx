@@ -52,7 +52,7 @@ export default function LandingPage() {
         {
           text: "Reservar por WhatsApp",          href: "https://wa.me/50555045249"},
         {
-          text: "Ver Menú",          href: "#menu", className: "bg-red-600 hover:bg-red-700 text-white"},
+          text: "Ver Menú",          href: "#menu"},
       ]}
       mediaItems={[
         {
@@ -79,11 +79,11 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          id: "1",          title: "Pagas por peso",          description: "Control total del precio. Tú eliges la porción. Tú decides el precio.",          imageSrc: "http://img.b2bpic.net/free-photo/assortment-frozen-food-table_23-2148969442.jpg"},
+          id: "1",          title: "Pagas por peso",          descriptions: ["Control total del precio. Tú eliges la porción. Tú decides el precio."],          imageSrc: "http://img.b2bpic.net/free-photo/assortment-frozen-food-table_23-2148969442.jpg"},
         {
-          id: "2",          title: "Cortes premium",          description: "Disfruta de picanha, ribeye y churrasco con calidad insuperable.",          imageSrc: "http://img.b2bpic.net/free-photo/meat-prepared-cooking_23-2148599755.jpg"},
+          id: "2",          title: "Cortes premium",          descriptions: ["Disfruta de picanha, ribeye y churrasco con calidad insuperable."],          imageSrc: "http://img.b2bpic.net/free-photo/meat-prepared-cooking_23-2148599755.jpg"},
         {
-          id: "3",          title: "Opciones para todos",          description: "De platos keto a opciones veganas frescas, cuidamos cada gusto.",          imageSrc: "http://img.b2bpic.net/free-photo/top-view-delicious-dinner-fried-chicken-dish-with-various-spices-foods-garlics-fallen-oil-bottle-lemon-onions-mushrooms-kumquats_140725-159368.jpg"},
+          id: "3",          title: "Opciones para todos",          descriptions: ["De platos keto a opciones veganas frescas, cuidamos cada gusto."],          imageSrc: "http://img.b2bpic.net/free-photo/top-view-delicious-dinner-fried-chicken-dish-with-various-spices-foods-garlics-fallen-oil-bottle-lemon-onions-mushrooms-kumquats_140725-159368.jpg"},
       ]}
       title="La Excelencia en Cada Corte"
       description="Una experiencia gastronómica diseñada a tu gusto."
@@ -173,6 +173,7 @@ export default function LandingPage() {
 
   <div id="footer" data-section="footer">
       <FooterBaseReveal
+      logoText="Picanha"
       columns={[
         {
           title: "Contacto",          items: [
@@ -203,7 +204,8 @@ export default function LandingPage() {
           ],
         },
       ]}
-      copyrightText="© 2024 Picanha Brazilian Taste. Todos los derechos reservados."
+      leftLink={{text: "Privacidad", href: "#"}}
+      rightLink={{text: "Términos", href: "#"}}
     />
   </div>
       </ReactLenis>
