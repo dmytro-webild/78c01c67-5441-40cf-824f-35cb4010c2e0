@@ -52,7 +52,7 @@ export default function LandingPage() {
         {
           text: "Reservar por WhatsApp",          href: "https://wa.me/50555045249"},
         {
-          text: "Ver Menú",          href: "#menu", className: "bg-red-600 hover:bg-red-700 text-white"},
+          text: "Ver Menú",          href: "#menu"},
       ]}
       mediaItems={[
         {
@@ -76,15 +76,13 @@ export default function LandingPage() {
       <FeatureCardTwentySeven
       animationType="slide-up"
       textboxLayout="default"
-      gridVariant="three-columns-all-equal-width"
-      useInvertedBackground={false}
       features={[
         {
-          id: "1",          title: "Pagas por peso",          description: "Control total del precio. Tú eliges la porción. Tú decides el precio.",          imageSrc: "http://img.b2bpic.net/free-photo/assortment-frozen-food-table_23-2148969442.jpg"},
+          id: "1",          title: "Pagas por peso",          descriptions: ["Control total del precio. Tú eliges la porción. Tú decides el precio."],          imageSrc: "http://img.b2bpic.net/free-photo/assortment-frozen-food-table_23-2148969442.jpg"},
         {
-          id: "2",          title: "Cortes premium",          description: "Disfruta de picanha, ribeye y churrasco con calidad insuperable.",          imageSrc: "http://img.b2bpic.net/free-photo/meat-prepared-cooking_23-2148599755.jpg"},
+          id: "2",          title: "Cortes premium",          descriptions: ["Disfruta de picanha, ribeye y churrasco con calidad insuperable."],          imageSrc: "http://img.b2bpic.net/free-photo/meat-prepared-cooking_23-2148599755.jpg"},
         {
-          id: "3",          title: "Opciones para todos",          description: "De platos keto a opciones veganas frescas, cuidamos cada gusto.",          imageSrc: "http://img.b2bpic.net/free-photo/top-view-delicious-dinner-fried-chicken-dish-with-various-spices-foods-garlics-fallen-oil-bottle-lemon-onions-mushrooms-kumquats_140725-159368.jpg"},
+          id: "3",          title: "Opciones para todos",          descriptions: ["De platos keto a opciones veganas frescas, cuidamos cada gusto."],          imageSrc: "http://img.b2bpic.net/free-photo/top-view-delicious-dinner-fried-chicken-dish-with-various-spices-foods-garlics-fallen-oil-bottle-lemon-onions-mushrooms-kumquats_140725-159368.jpg"},
       ]}
       title="La Excelencia en Cada Corte"
       description="Una experiencia gastronómica diseñada a tu gusto."
@@ -94,7 +92,6 @@ export default function LandingPage() {
   <div id="experience" data-section="experience">
       <FaqBase
       textboxLayout="split"
-      useInvertedBackground={false}
       faqs={[
         {
           id: "1",          title: "1. Elige tus carnes",          content: "Selecciona tus cortes favoritos directamente de nuestra parrilla al carbón."},
@@ -116,7 +113,6 @@ export default function LandingPage() {
       animationType="slide-up"
       textboxLayout="default"
       gridVariant="three-columns-all-equal-width"
-      useInvertedBackground={false}
       products={[
         {
           id: "p1",          name: "Picanha",          price: "Premium",          imageSrc: "http://img.b2bpic.net/free-photo/steamed-bao-bun-with-braised-pork-belly-fresh-asian-slaw_84443-85877.jpg?_wi=1"},
@@ -138,7 +134,6 @@ export default function LandingPage() {
 
   <div id="testimonials" data-section="testimonials">
       <TestimonialCardTwelve
-      useInvertedBackground={false}
       testimonials={[
         {
           id: "1",          name: "Carlos M.",          imageSrc: "http://img.b2bpic.net/free-photo/close-up-young-friends-restaurant_23-2148395397.jpg"},
@@ -159,10 +154,11 @@ export default function LandingPage() {
 
   <div id="contact" data-section="contact">
       <ContactText
-      useInvertedBackground={false}
       background={{
         variant: "gradient-bars"}}
-      text="¿Listo para la mejor carne en Managua? Visítanos hoy o contáctanos por WhatsApp. Dirección: 1C, Club Terraza, Managua. Tel: 5504 5249. Horarios: Mié-Sáb 11:30AM-9:30PM, Dom 12PM-4PM, Lun-Mar 11:30AM-3PM."
+      title="¿Listo para la mejor carne en Managua?"
+      description="Visítanos hoy o contáctanos por WhatsApp. Dirección: 1C, Club Terraza, Managua. Tel: 5504 5249. Horarios: Mié-Sáb 11:30AM-9:30PM, Dom 12PM-4PM, Lun-Mar 11:30AM-3PM."
+      tag="Contacto"
       buttons={[
         {
           text: "WhatsApp Reservas",          href: "https://wa.me/50555045249"},
@@ -174,6 +170,7 @@ export default function LandingPage() {
 
   <div id="footer" data-section="footer">
       <FooterBaseReveal
+      logoText="PICANHA"
       columns={[
         {
           title: "Contacto",          items: [
@@ -204,6 +201,8 @@ export default function LandingPage() {
           ],
         },
       ]}
+      leftLink={{ text: "Privacidad", href: "#" }}
+      rightLink={{ text: "Términos", href: "#" }}
       copyrightText="© 2024 Picanha Brazilian Taste. Todos los derechos reservados."
     />
   </div>
