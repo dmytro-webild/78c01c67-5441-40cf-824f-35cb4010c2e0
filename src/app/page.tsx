@@ -47,8 +47,6 @@ export default function LandingPage() {
       buttons={[
         {
           text: "Reservar por WhatsApp",          href: "https://wa.me/50555045249"},
-        {
-          text: "Ver menú",          href: "#menu"},
       ]}
       mediaItems={[
         {
@@ -75,15 +73,15 @@ export default function LandingPage() {
       gridVariant="three-columns-all-equal-width"
       useInvertedBackground={false}
       products={[
-        { id: "p1", name: "Brigadeiro", price: "Un dulce típico brasileño", imageSrc: "http://img.b2bpic.net/free-photo/chocolate-balls-with-cocoa-powder_114579-12445.jpg?_wi=1" },
-        { id: "p2", name: "Plato para compartir", price: "Dos libras de carne de su preferencia y tres guarniciones", imageSrc: "http://img.b2bpic.net/free-photo/steamed-bao-bun-with-braised-pork-belly-fresh-asian-slaw_84443-85877.jpg?_wi=1" },
-        { id: "p3", name: "Libra de carne", price: "Escoge los diferentes tipos de carne que desee hasta completar una libra", imageSrc: "http://img.b2bpic.net/free-photo/front-view-fried-meat-slice-dark-blue-meat-food-dish-fry-color-animal-rib-dinner-cooking-barbecue_179666-44077.jpg?_wi=1" },
-        { id: "p4", name: "Media libra de carne", price: "Escoge media libra de las carnes de tu elección", imageSrc: "http://img.b2bpic.net/free-photo/bottom-view-raw-chicken-skewers-natural-wood-board-other-stuffs-black-table_140725-148190.jpg?_wi=1" },
-        { id: "p5", name: "Combo picañero", price: "Deliciosas ocho onzas de picaña acompañada de ensalada y la guarnición de su preferencia", imageSrc: "http://img.b2bpic.net/free-photo/steamed-bao-bun-with-braised-pork-belly-fresh-asian-slaw_84443-85877.jpg?_wi=2" },
-        { id: "p6", name: "Combo fit", price: "Ocho onzas de carne de su preferencia y porción de ensalada", imageSrc: "http://img.b2bpic.net/free-photo/bottom-view-raw-chicken-skewers-natural-wood-board-other-stuffs-black-table_140725-148190.jpg?_wi=2" },
-        { id: "p7", name: "Feijoada (libra)", price: "Deliciosa feijoada, plato típico de Brasil a base de frijoles negros, cerdo y embutidos. Acompañado con farofa", imageSrc: "http://img.b2bpic.net/free-photo/chocolate-balls-with-cocoa-powder_114579-12445.jpg?_wi=2" },
-        { id: "p8", name: "Plato completo", price: "Ocho onzas de carne de su preferencia, máximo 2 porciones de ensalada y una porción de carbohidrato", imageSrc: "http://img.b2bpic.net/free-photo/front-view-fried-meat-slice-dark-blue-meat-food-dish-fry-color-animal-rib-dinner-cooking-barbecue_179666-44077.jpg?_wi=2" },
-        { id: "p9", name: "Plato variado", price: "Ocho onzas de carne y elige las guarniciones que desee", imageSrc: "http://img.b2bpic.net/free-photo/bottom-view-raw-chicken-skewers-natural-wood-board-other-stuffs-black-table_140725-148190.jpg?_wi=1" }
+        { id: "p1", name: "Brigadeiro", price: "$1.50", imageSrc: "http://img.b2bpic.net/free-photo/chocolate-balls-with-cocoa-powder_114579-12445.jpg?_wi=1" },
+        { id: "p2", name: "Plato para compartir", price: "$25.00", imageSrc: "http://img.b2bpic.net/free-photo/steamed-bao-bun-with-braised-pork-belly-fresh-asian-slaw_84443-85877.jpg?_wi=1" },
+        { id: "p3", name: "Libra de carne", price: "$18.00", imageSrc: "http://img.b2bpic.net/free-photo/front-view-fried-meat-slice-dark-blue-meat-food-dish-fry-color-animal-rib-dinner-cooking-barbecue_179666-44077.jpg?_wi=1" },
+        { id: "p4", name: "Media libra de carne", price: "$9.50", imageSrc: "http://img.b2bpic.net/free-photo/bottom-view-raw-chicken-skewers-natural-wood-board-other-stuffs-black-table_140725-148190.jpg?_wi=1" },
+        { id: "p5", name: "Combo picañero", price: "$12.00", imageSrc: "http://img.b2bpic.net/free-photo/steamed-bao-bun-with-braised-pork-belly-fresh-asian-slaw_84443-85877.jpg?_wi=2" },
+        { id: "p6", name: "Combo fit", price: "$10.50", imageSrc: "http://img.b2bpic.net/free-photo/bottom-view-raw-chicken-skewers-natural-wood-board-other-stuffs-black-table_140725-148190.jpg?_wi=2" },
+        { id: "p7", name: "Feijoada (libra)", price: "$14.00", imageSrc: "http://img.b2bpic.net/free-photo/chocolate-balls-with-cocoa-powder_114579-12445.jpg?_wi=2" },
+        { id: "p8", name: "Plato completo", price: "$15.00", imageSrc: "http://img.b2bpic.net/free-photo/front-view-fried-meat-slice-dark-blue-meat-food-dish-fry-color-animal-rib-dinner-cooking-barbecue_179666-44077.jpg?_wi=2" },
+        { id: "p9", name: "Plato variado", price: "$13.50", imageSrc: "http://img.b2bpic.net/free-photo/bottom-view-raw-chicken-skewers-natural-wood-board-other-stuffs-black-table_140725-148190.jpg?_wi=1" }
       ]}
       title="Nuestras Especialidades"
       description="Cortes seleccionados con pasión y fuego."
@@ -94,16 +92,13 @@ export default function LandingPage() {
       <TestimonialCardTwelve
       useInvertedBackground={false}
       testimonials={[
-        {
-          id: "1",          name: "Alejandro R.",          imageSrc: "http://img.b2bpic.net/free-photo/close-up-young-friends-restaurant_23-2148395397.jpg"},
-        {
-          id: "2",          name: "Elena S.",          imageSrc: "http://img.b2bpic.net/free-photo/friends-eating-pizza-medium-shot_23-2149872407.jpg"},
-        {
-          id: "3",          name: "Mateo V.",          imageSrc: "http://img.b2bpic.net/free-photo/happy-woman-paying-with-her-phone-via-contactless-payment-while-having-lunch-with-boyfriend-bar_637285-647.jpg"},
+        { id: "1", name: "Carlos M.", imageSrc: "http://img.b2bpic.net/free-photo/close-up-young-friends-restaurant_23-2148395397.jpg" },
+        { id: "2", name: "Lucia F.", imageSrc: "http://img.b2bpic.net/free-photo/friends-eating-pizza-medium-shot_23-2149872407.jpg" },
+        { id: "3", name: "Jorge A.", imageSrc: "http://img.b2bpic.net/free-photo/happy-woman-paying-with-her-phone-via-contactless-payment-while-having-lunch-with-boyfriend-bar_637285-647.jpg" },
       ]}
-      cardTitle="Lo que dicen nuestros clientes"
+      cardTitle="Experiencias que nos definen"
       cardAnimation="slide-up"
-      cardTag="Opiniones"
+      cardTag="Testimonios"
     />
   </div>
 
